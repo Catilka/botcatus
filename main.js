@@ -1,4 +1,4 @@
-import mineflayer from 'mineflayer';
+const mineflayer = require("mineflayer");
 
 const main = mineflayer.createBot({
     host: 'mc.legendsGrief.ru',
