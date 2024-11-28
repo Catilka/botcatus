@@ -22,14 +22,12 @@ main.once('windowOpen', (window) => {
     windowOpened = true;
 });
 if (windowOpened = true) {
-    await new Promise(resolve => setTimeout(resolve, 1000)); // Даем 1 секунду на открытие окна
     main.clickWindow(22, 0, 0);
     console.log("кликнул во второе меню")
     windowOpened2 = true;
 }
 if (windowOpened2 = true) {
     console.log("запускаю 2 меню")
-    await new Promise(resolve => setTimeout(resolve, 1000)); // Даем 1 секунду на открытие окна
     main.clickWindow(1, 0, 0);
 }
 
